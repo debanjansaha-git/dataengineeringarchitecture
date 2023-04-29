@@ -20,6 +20,12 @@ This project involved the development and implementation of a complete data engi
 ## Technologies Used
 
 ### Azure Data Factory
+
+#### Ingestion
+
+For ingestion of the data I used Azure Data Factory which supports a wide range of data types. Here is an example of an Azure Data Flow activity which is used to orchestra data ingestion from an external source into my data lake. Here, I am ingesting data from various external sources both private and public.
+![data-flow](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/ADF_DataFlow.png)
+
 ### Azure Databricks
 ### Azure Synapse
 ### Power BI
