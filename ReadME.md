@@ -27,6 +27,11 @@ For ingestion of the data I used Azure Data Factory which supports a wide range 
 ![data-flow](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/ADF_DataFlow.png)
 
 ### Azure Databricks
+
+I use a 2 node spark cluster to read the raw data and perform various data transformations on it.
+I have uploaded some of the notebooks which perform these tasks and here is a visualization describing the proces
+![data-processinf](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Data%20Processing.png)
+
 ### Azure Synapse
 ### Power BI
 
