@@ -33,6 +33,15 @@ I have uploaded some of the notebooks which perform these tasks and here is a vi
 ![data-processinf](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Data%20Processing.png)
 
 ### Azure Synapse
+
+### Pipelines
+
+![main-pipeline](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Data%20Pipelines.png)
+
+#### Notification
+
+![run-pipeline](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Run%20Validations.png)
+
 ### Power BI
 
 ## Key Achievements
