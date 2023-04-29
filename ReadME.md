@@ -1,5 +1,3 @@
-Project Name
-
 #   Data Engineering Architecture for Large Scale Data Processing
 
 ## Architect: Debanjan Saha
