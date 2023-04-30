@@ -34,11 +34,23 @@ I have uploaded some of the notebooks which perform these tasks and here is a vi
 
 ### Azure Synapse
 
+Azure Synapse provides the combination of using Spark on Azure Cloud Computing.
+Currently, Synapse is natively integrated with other Azure services such as Azure SQL, Cosmos DB, Azure Data Factory, Azure Databricks, Azure DevOps and many more.
+In this project, I will keep the scope really simple and look at the pipeline implementation of data for ride commute data.
+
 ### Pipelines
+
+The entire workload is broken down into smaller executable units which are executed using Pipelines. A Pipeline is basically a computation for any particular objective as determined by the task being performed using the pipeline. A pipeline can be used to perform various tasks like copying data, zipping or unizipping files, running notebooks, running customized scripts, executing stored procedures, adhoc queries, and many more.
 
 ![main-pipeline](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Data%20Pipelines.png)
 
+### Transformations
+Many different **actions** and transformations are performed on the data. The actions use Spark's lazy execution policy and only gets executed when the transformations take place. In some of my pipelines, it involved advanced data transformations techniques, as shown below.
+![transform_pipe](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Transformation%20Pipeline.png)
+
 #### Notification
+
+Every notebook task is attached with a notification pipeline which triggers a notification email, sms depending on the results of execution of the former pipeline activity (which in this case is the execution of a Databricks Notebook)
 
 ![run-pipeline](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Run%20Validations.png)
 
