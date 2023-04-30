@@ -44,6 +44,9 @@ I have uploaded some of the notebooks which perform these tasks and here is a vi
 
 ### Power BI
 
+Created a dashboard to display the monthly statistics
+![power-bi](https://github.com/debanjansaha-git/dataengineeringarchitecture/blob/main/images/Power%20BI.png)
+
 ## Key Achievements
 
 1. Successfully implemented a complete data engineering architecture for processing and storing large volumes of data from over 100 different sources.
